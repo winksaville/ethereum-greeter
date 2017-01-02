@@ -6,7 +6,7 @@ contract Greeter {
     string greeting; // Greeting
 
     /* Constructor */
-    function greeter() public {
+    function Greeter() public {
         owner = msg.sender;
         greeting = "Hi from Greeter";
     }
